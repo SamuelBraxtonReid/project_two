@@ -1,10 +1,18 @@
-#planets {
-  width: 20rem;
+body {
   color: white;
   background: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#planets {
+  color: white;
+  width: 16rem;
 }
 
 .delete {
   float: right;
+  color: white;
+  background: red;
+  outline-color: orange;
 }
 
