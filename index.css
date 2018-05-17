@@ -1,0 +1,10 @@
+#planets {
+  width: 20rem;
+  color: white;
+  background: black;
+}
+
+.delete {
+  float: right;
+}
+
