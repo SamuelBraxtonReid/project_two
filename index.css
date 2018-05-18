@@ -5,14 +5,67 @@ body {
 }
 
 #planets {
-  color: white;
   width: 16rem;
+  color: white;
+  margin: 0px;
+}
+
+.planet {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0px;
+  outline: 1px solid white;
+}
+
+.text {
+  outline: 0;
+}
+
+.buttons {
+  height: 40px;
+  margin: 0px;
+  width: 110px;
+  float: right;
+  line-height: 0px;
+}
+
+.fave {
+  float: right;
+  width: 40px;
+  height: 40px;
+  color: white;
+  background: #2C3539;
+  outline: 0;
+}
+
+.upDown {
+  float: right;
+  width: 30px;
+  height: 40px;
+}
+
+.up {
+  width: 30px;
+  height: 20px;
+  color: black;
+  background: skyblue;
+  outline: 0;
+}
+
+.down {
+  width: 30px;
+  height: 20px;
+  color: black;
+  background: skyblue;
+  outline: 0;
 }
 
 .delete {
   float: right;
+  width: 40px;
+  height: 40px;
   color: white;
-  background: red;
-  outline-color: orange;
+  background: #B84B43;
+  outline: 0;
 }
-
