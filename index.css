@@ -19,15 +19,16 @@ body {
 }
 
 .text {
-  outline: 0;
+  outline: 0; 
 }
 
 .buttons {
   height: 40px;
   margin: 0px;
-  width: 110px;
+  width: 120px;
   float: right;
-  line-height: 0px;
+  line-height: normal;
+  text-align: normal;
 }
 
 .fave {
@@ -41,12 +42,12 @@ body {
 
 .upDown {
   float: right;
-  width: 30px;
+  width: 40px;
   height: 40px;
 }
 
 .up {
-  width: 30px;
+  width: 40px;
   height: 20px;
   color: black;
   background: skyblue;
@@ -54,7 +55,7 @@ body {
 }
 
 .down {
-  width: 30px;
+  width: 40px;
   height: 20px;
   color: black;
   background: skyblue;
